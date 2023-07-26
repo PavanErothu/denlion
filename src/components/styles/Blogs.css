@@ -1,0 +1,119 @@
+.blog_heading_text {
+  background-image: url("../images/blog_top_image.png");
+  padding: 10%;
+  background-size: cover;
+  border-bottom: 2px solid #ffaa3b;
+}
+.top_news li {
+  font-weight: 600;
+  margin-bottom: 5%;
+  font-size: 0.8rem;
+}
+.blog_write_button {
+  padding: 4px 20px;
+  font-size: 1.1rem;
+  
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #ffaa3b;
+  color: black;
+}
+.blog_write_for {
+  border: 2px solid #DCDCDC;
+  padding: 12px;
+}
+.blog_write_button:hover {
+  background-color: #79e692;
+  transition: 0.3s;
+  color: black;
+}
+.blog_education {
+  border: 2px solid #dcdcdc;
+  padding: 12px;
+}
+.blog-input-icons i {
+  position: absolute;
+}
+
+.blog-input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.blog-icon {
+  padding: 27px;
+  min-width: 40px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.blog-input-field {
+  width: 100%;
+  padding: 8px;
+  padding-left: 26px;
+  margin-bottom: 3px;
+}
+input[type="radio"] {
+  padding: 0.3em;
+  -webkit-appearance: none;
+  outline: 2px solid #dcdcdc;
+  outline-offset: 0.1em;
+}
+
+input[type="radio"]:checked {
+  background-color: #000;
+}
+.radio_buttons label {
+  font-size: 0.8rem;
+}
+.blog_content,.add_blog_content{
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+}
+.jodit-status-bar-link{
+  display: none;
+}
+@media screen and (max-width:767px) {
+  .blog_list_height{
+    height:auto!important;
+  }
+}
+@media screen and (max-width:1024px) {
+  .blog_list_height{
+    height:25%;
+    padding: 10px 0px 10px 0px;
+  }
+}
+.blog_list_height{
+  height:25%;
+  
+}
+input[type="checkbox"]:checked{
+accent-color:#FFAA3B;
+}
+.double_line_clamp{
+  display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;  
+overflow: hidden;
+}
+@media screen and (max-width:991px) {
+  .active_arrow_position{
+    margin-top: -10px !important;
+  }
+}
+@media screen and (max-width:767px) {
+  .active_arrow_position{
+    margin-top: -25px !important;
+  }
+}

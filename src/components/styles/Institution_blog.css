@@ -1,0 +1,95 @@
+.heading_text b {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.author p {
+  font-family: "Montserrat";
+}
+.edu_text {
+  font-weight: 700;
+  text-align: center;
+}
+.blogs {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ececec;
+  border-radius: 20px;
+}
+
+.blogs_follow_links .fa_icons{
+  padding: 9px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+  background: #5a5a5a;
+  color: white;
+  text-decoration: none !important;
+}
+.blogs_follow_links a:hover{
+  color: #FFAA3B;
+  
+}
+.blogs_follow_links>ul{
+  margin:0%;
+ 
+  padding-left: 0%;
+  
+}
+.categories {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ececec;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.para {
+  font-size: 14px;
+}
+.popular_text {
+  background-color: #ffaa3b;
+  color: black;
+  padding: 4px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 2px;
+  border-radius: 18px;
+  font-weight: 500;
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 13px;
+    min-width: 40px;
+    
+}
+  
+.input-field {
+    width: 100%;
+    /* padding: 10px ; */
+    padding-left: 35px;
+    margin-bottom: 3px;
+}
+@media screen and (max-width:767px) {
+  .social_padding_responsive{
+    padding-right: 20%!important;
+  }
+  .social_position{
+    position: absolute!important;
+  }
+}
+.social_position{
+  position:fixed;
+}

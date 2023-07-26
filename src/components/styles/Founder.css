@@ -1,0 +1,20 @@
+#founder{
+  scroll-margin-top: 100px;
+
+}
+.founder_bg{
+    border-radius: 50%;
+    top: 250%;
+}
+.container h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.founder{
+    background-color: #F6FFFD;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+}

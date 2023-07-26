@@ -1,0 +1,75 @@
+/* body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat';
+
+}
+*/
+* {
+  box-sizing: border-box;
+} 
+.card_padding{
+  padding:213.5px 0px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.bg-image {
+  background-image: url("../images/background_book.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-image: url('../images/blur_bg.png');
+  color: white;
+  font-weight: bold;
+  /* / transform: translate(30%, 50%); / */
+  /* / z-index: 2; / */
+  /* / width: 30vw; / */
+  /* / top: 30%; / */
+  /* / padding: 5%; / */
+  /* / position: relative; / */
+  display: inline-flex;
+  align-items: center;
+  /* / margin-left: 30%; / */
+  text-align: center;
+  /* / backdrop-filter: blur(8px); / */
+}
+.text {
+  text-align: left;
+}
+
+i:hover {
+  cursor: pointer;
+}
+.reset_button {
+  border: none;
+  background: #ffaa3b;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  font-size: 0.6rem;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.input i {
+  position: absolute;
+  color: black;
+  float: right;
+  right: 10%;
+  font-size: 0.9rem;
+}
+.img_text{
+  font-size: 1rem;
+}

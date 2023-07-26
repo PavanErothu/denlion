@@ -1,0 +1,31 @@
+/* .about-div{
+    flex-wrap: nowrap;
+}
+@media only screen and (max-width: 765px) {
+    .about-div {
+      flex-wrap: wrap;
+    }
+  }
+@media only screen and (min-width: 914px) {
+    .write {
+margin-left: 20px;
+    }
+  }  */
+
+.mobile{
+  position: relative;
+  right: -25.5%;
+  height:100%;
+}
+@media screen and (max-width: 900px) {
+  .mobile{
+    position: relative;
+    right: 0px;
+  }
+}  
+@media screen and (max-width: 900px) {
+  .mobile{
+    position: relative;
+    right: 0px;
+  }
+}  

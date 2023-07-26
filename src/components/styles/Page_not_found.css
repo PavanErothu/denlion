@@ -1,0 +1,18 @@
+.page_not_found {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.notfound_text h1 {
+  color: #245d51;
+  font-family: "Montserrat";
+  font-size: 8rem;
+  font-weight: 900;
+}
+.home_btn{
+    background-color: #FFAA3B;
+    width: 45%;
+}

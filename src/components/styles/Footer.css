@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #eee;
+  padding: 1.5rem ;
+}
+
+.follow_links .fa_icons{
+  padding: 9px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+  background: #5a5a5a;
+  color: white;
+  text-decoration: none !important;
+}
+.follow_links a:hover{
+  color: #FFAA3B;
+}
+
+.line {
+  margin-bottom: 1rem;
+}
+.terms{
+  color: #5a5a5a;
+}
+.terms:hover{
+  color: #FFAA3B;
+}

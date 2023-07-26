@@ -1,0 +1,52 @@
+.about {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+#ourstory{
+  scroll-margin-top: 100px;
+}
+.about .container {
+  width: 1240px;
+  margin: auto;
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.about h2 {
+  font-size: 4rem;
+  color: #151212;
+  font-weight: 700;
+}
+.about p {
+  color: #675c5c;
+  text-align: left;
+}
+
+@media screen and (max-width: 940px) {
+  .about .container {
+    grid-template-columns: 1fr;
+  }
+
+  .about .container {
+    width: 100%;
+  }
+
+  .about .container img {
+    padding: 0rem;
+    width: 90vw;
+  }
+
+  .about .container .col-2 {
+    padding: 0;
+  }
+
+  .about button {
+    margin-bottom: 1rem;
+  }
+}
+
+/* .ourstory_title{
+  font-size: 2rem;
+  font-weight: 800;
+} */
